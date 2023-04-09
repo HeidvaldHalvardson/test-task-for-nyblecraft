@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/test-task-for-nyblecraft/static/css/main.2657aaeb.css",
+    "main.js": "/test-task-for-nyblecraft/static/js/main.155e317c.js",
+    "index.html": "/test-task-for-nyblecraft/index.html",
+    "main.2657aaeb.css.map": "/test-task-for-nyblecraft/static/css/main.2657aaeb.css.map",
+    "main.155e317c.js.map": "/test-task-for-nyblecraft/static/js/main.155e317c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2657aaeb.css",
+    "static/js/main.155e317c.js"
+  ]
+}
