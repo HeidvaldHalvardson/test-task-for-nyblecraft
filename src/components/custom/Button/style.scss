@@ -1,0 +1,14 @@
+.button {
+  cursor: pointer;
+
+  &:hover {
+    background-color: #ffa500;
+    border: none;
+    outline: 1px solid #d2691e;
+  }
+
+  &:active {
+    outline: none;
+    opacity: 0.7;
+  }
+}

@@ -1,0 +1,19 @@
+.wrapper-comment {
+  background-color: #fff;
+  box-shadow: 0 1px 7px 0 #000000;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.inner-comment {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.wrapper-button {
+  display: flex;
+  gap: 10px;
+}
+
