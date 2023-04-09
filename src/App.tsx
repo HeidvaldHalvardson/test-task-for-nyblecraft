@@ -16,12 +16,15 @@ function App() {
 
   async function fetchData() {
     try {
-      const localData= localStorage.getItem('data')
-      const localDataParse:IData[] = JSON.parse(`${localData}`)
-      setData(localDataParse)
-      if (localDataParse.length === 0) {
+      if (localStorage.getItem('data') === null) {
         const response = await axios.get<IData[]>('./data.json')
         localStorage.setItem('data', JSON.stringify(response.data))
+        const localData= localStorage.getItem('data')
+        const localDataParse:IData[] = JSON.parse(`${localData}`)
+        setData(localDataParse)
+      } else {
+        const localData= localStorage.getItem('data')
+        const localDataParse:IData[] = JSON.parse(`${localData}`)
         setData(localDataParse)
       }
     } catch (err) {
